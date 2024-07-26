@@ -19,7 +19,7 @@ This repository contains a Python implementation of a genetic algorithm to evolv
 
 You can install the required packages using:
 ```bash
-pip install colorama tabulate matplotlib
+pip install -r requirements.txt
 ```
 
 ## Usage
