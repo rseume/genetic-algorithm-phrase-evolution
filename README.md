@@ -26,7 +26,7 @@ pip install colorama tabulate matplotlib
 Run the script using the following command:
 
 ```bash
-python genetic_algorithm.py
+python main.py
 ```
 
 Follow the prompts to input the target phrase, population count, and mutation rate.
