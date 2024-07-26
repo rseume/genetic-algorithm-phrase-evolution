@@ -43,14 +43,14 @@ The script will then evolve the population towards the target phrase, displaying
 
 ## Script Overview
 
-**GeneticUnit Class**
+**`GeneticUnit` Class**
 
 - randomize_genes(target_length): Randomizes the genes of the unit.
 - calculate_fitness(target_phrase, target_length): Calculates the fitness of the unit based on a target phrase.
 - mutate(mutation_rate): Mutates the genes based on the mutation rate.
 - crossover(a, b, target_length): Creates a new unit by combining genes from two parents.
 
-**GeneticPopulation Class**
+**`GeneticPopulation` Class**
 
 - _calculate_fitness(): Calculates the fitness for each unit in the population.
 - _evaluate(): Evaluates the current population to find the best unit and checks for termination.
@@ -73,10 +73,10 @@ The script will then evolve the population towards the target phrase, displaying
 
 Runs the genetic algorithm, prompts for user input, evaluates the population, and evolves it until the termination condition is met.
 
-**Contributing**
+## Contributing
 
 Feel free to fork the repository and submit pull requests for any enhancements or bug fixes.
 
-**License**
+## License
 
 This project is licensed under the MIT License.
